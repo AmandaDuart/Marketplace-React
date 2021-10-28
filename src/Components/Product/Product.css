@@ -1,0 +1,61 @@
+.cardImg{
+   
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.productInfo{
+
+    display:flex;
+}
+
+.promoprice{
+    text-decoration: line-through;
+    color:rgb(165, 163, 163) !important;
+}
+.price{
+color:red;
+}
+.promocinza{
+    color:rgb(165, 163, 163) !important;
+}
+.promopreto{
+    color:rgb(0, 0, 0) !important;
+}
+.btn-success{
+    width: 240px !important;
+    top: 488px !important;
+    background: #40B25C !important   ;
+}
+.btn-success:hover{
+    width: 240px !important;
+    top: 488px !important;
+    background: #1C6C3E !important   ;
+}
+.btn-success:active{
+    background: #A3F9B9!important   ;
+    border-radius: 5px #A3F9B9!important   ;
+    color: rgb(0, 0, 0)!important;
+} 
+.love{
+    width: 40px!important;
+    height: 40px!important;
+    border-radius: 300px!important;
+    margin: 50px!important;
+    border-radius: 90%!important;
+    background: #adb5bd;
+    margin: 0px!important;
+    margin-left: 220px!important;
+    margin-bottom: -160px!important;
+    position: absolute!important;
+
+
+}
+.containerlove{
+    margin: 0px;
+
+}
