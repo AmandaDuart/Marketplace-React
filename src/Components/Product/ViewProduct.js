@@ -11,7 +11,7 @@ function ViewProduct(props) {
 	const { id } = useParams();
 	console.log(id);
 	React.useEffect(() => {
-		fetch(`https://resilia-marketplace.herokuapp.com/products/${id}`)
+		fetch(`https://tranquil-dawn-87865.herokuapp.com/products${id}`)
 			.then((res) => res.json())
 			.then((json) => setProduct(json));
 	}, [id]);

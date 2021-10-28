@@ -16,7 +16,7 @@ const Products = (props) => {
 	const [products, setProducts] = React.useState([]);
 
 	React.useEffect(() => {
-		fetch('https://resilia-marketplace.herokuapp.com/products')
+		fetch('https://tranquil-dawn-87865.herokuapp.com/products')
 			.then(res => res.json())
 			.then(json => setProducts(json))
 	}, [])
